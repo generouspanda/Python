@@ -126,7 +126,7 @@ def equation():
 
             if((int(b)==0) and (int(d)==0)) or ((float(d)-float(b))==0):
                 print("Your slope is: 0")
-                printed=str(f"y={b}")
+                printed=str(f"y={str(a).rstrip('.0')}")
                 print(printed)
                 graphing()
 
