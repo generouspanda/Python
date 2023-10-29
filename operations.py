@@ -93,7 +93,7 @@ def equation():
     b = convert(b_1)
     c = convert(c_1)
     d = convert(d_1)
-    def graphing(): f
+    def graphing():
         from pyautogui import press, typewrite, hotkey
         import webbrowser
         import time
