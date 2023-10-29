@@ -92,7 +92,7 @@ def equation():
     a = convert(a_1)
     b = convert(b_1)
     c = convert(c_1)
-    d = convert(d_1) fas
+    d = convert(d_1)
     def graphing():
         from pyautogui import press, typewrite, hotkey
         import webbrowser
