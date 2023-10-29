@@ -118,15 +118,15 @@ def equation():
                 print("Please give 2 different points.")
                 equation()
 
-            if((int(b)==0) and (int(d)==0)) or ((float(d)-float(b))==0):
+            if((int(a)==0) and (int(c)==0)) or ((float(c)-float(a))==0):
                 print("Your slope is: 0")
-                printed=str(f"x={float(str(float(c)).rstrip('0'))-float(str(float(a)).rstrip('0'))}")
+                printed=str(f"x={c-a}")
                 print(printed)
                 graphing()
 
             if((int(b)==0) and (int(d)==0)) or ((float(d)-float(b))==0):
                 print("Your slope is: 0")
-                printed=str(f"y={str(float(str(d).rstrip('0'))-float(str(b).rstrip('0'))).rstrip('.0')}")
+                printed=str(f"y={d-b}")
                 print(printed)
                 graphing()
 
