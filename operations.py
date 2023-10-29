@@ -102,7 +102,7 @@ def equation():
             if(graphed=="y") or (graphed=="Y") or (graphed=="yes") or (graphed=="Yes"):    
                             webbrowser.open_new("https://www.desmos.com/calculator")
                             time.sleep(1)
-                            typewrite(f"y={slope_strip}x+{yint_strip}")
+                            typewrite(printed)
                             another()
             if(graphed=="n") or (graphed=="N") or (graphed=="no") or (graphed=="No"):
                             another()
@@ -110,7 +110,7 @@ def equation():
                 print("Please answer with Y or N.")
                 continue
     while True:
-        yn=input(f"Are your coodinates ({str(float(a)).rstrip('.0')}, {str(float(b)).rstrip('.0')}) ({str(float(c)).rstrip('.0')}, {str(float(d)).rstrip('.0')}): ")
+        yn=input(f"Are your coodinates ({a}, {b}) ({c}, {d}): ")
 
         try:
 
@@ -118,14 +118,21 @@ def equation():
                 print("Please give 2 different points.")
                 equation()
 
-            if(int(a)==0) and (int(c)==0) or ((float(c)-float(a))==0):
-                slope=0
-                print(f"y={str(float(d)).rstrip('.0')-str(float(b)).rstrip('.0')}")
+            if((int(b)==0) and (int(d)==0)) or ((float(d)-float(b))==0):
+                print("Your slope is: 0")
+                printed=str(f"x={float(str(float(c)).rstrip('0'))-float(str(float(a)).rstrip('0'))}")
+                print(printed)
                 graphing()
 
-            if(int(b)==0) and (int(d)==0) or ((float(d)-float(b))==0):
+            if((int(b)==0) and (int(d)==0)) or ((float(d)-float(b))==0):
+                print("Your slope is: 0")
+                printed=str(f"y={str(float(str(d).rstrip('0'))-float(str(b).rstrip('0'))).rstrip('.0')}")
+                print(printed)
+                graphing()
+
+            if(int(a)==0) and (int(c)==0) or ((float(a)-float(c))==0):
                 slope=0
-                print(f"x={float(str(c).rstrip('.0'))-float(str(a).rstrip('.0'))}")
+                print(f"y={float(str(c).rstrip('0'))-float(str(a).rstrip('0'))}")
                 graphing()
 
             else:
@@ -137,7 +144,8 @@ def equation():
                     print(f"Your equation in point-slope form is: y-{str(b).rstrip('.0')}={slope_strip}(x-{str(a).rstrip('.0')})")
                     yint_strip=str(b-slope*a).rstrip('.0')
                     slope_strip=str(slope).rstrip('.0')
-                    print(f"Your equation in slope-intercept form is: y={slope_strip}x+{yint_strip}")
+                    printed=str(f"y={slope_strip}x+{yint_strip}")
+                    print(f"Your equation in slope-intercept form is: {printed}")
                     graphing()
 
                 if(yn=="n") or (yn=="N") or (yn=="no") or (yn=="No"):
