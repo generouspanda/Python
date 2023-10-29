@@ -87,7 +87,7 @@ def equation():
     global c
     a_1 = input("Insert your first 'x' coordinate here: ")
     b_1 = input("Insert your first 'y' coordinate here: ")
-    c_1 = input("Insert your second 'x' coordinate here: ")
+    c_1 = input("Insert your second n'x' coordinate here: ")
     d_1 = input("Insert your second 'y' coordinate here: ")
     a = convert(a_1)
     b = convert(b_1)
