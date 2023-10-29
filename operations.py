@@ -128,7 +128,7 @@ def equation():
                 print("Your slope is: 0")
                 printed=str(f"y={d-b}")
                 print(printed)
-                graphing()
+                graphing() fa
 
             if(int(a)==0) and (int(c)==0) or ((float(a)-float(c))==0):
                 slope=0
