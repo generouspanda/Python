@@ -112,7 +112,7 @@ def equation():
         try:
             a = convert(a_1)
             b = convert(b_1)
-        c = convert(c_1)
+            c = convert(c_1)
         d = convert(d_1)
             if(a==b==c==d) or ((a==c) and (b==d)):
                 print("Please give 2 different points.")
