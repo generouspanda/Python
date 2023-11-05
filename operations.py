@@ -153,9 +153,7 @@ def equation():
                 else:
                     print("Please answer with Y or N.")
                     continue
-        except ValueError:
-            print("Please only enter numbers.")
-            equation()
+        
 def whichone():
     options = ["Operations", "Solve for the equation of a line"]
 
