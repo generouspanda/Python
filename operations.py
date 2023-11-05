@@ -153,7 +153,7 @@ def equation():
                 else:
                     print("Please answer with Y or N.")
                     continue
-        except ValueError as e:
+        except ValueError:
             print("Something went wrong, please enter your coordinates again.")
             equation()
 def whichone():
