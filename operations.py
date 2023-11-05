@@ -72,7 +72,7 @@ def operation():
                 string=str(divided)
                 total=string.rstrip('0')
                 print("Quotient:", total)
-                another() f
+                another()
 
             except ValueError:
                 print("Please try again with numbers.")
