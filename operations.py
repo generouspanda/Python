@@ -107,6 +107,7 @@ def equation():
                 print("Please answer with Y or N.")
                 continue
     while True:
+        
         yn=input(f"Are your coodinates ({a}, {b}) ({c}, {d}): ")
 
         try:
