@@ -89,10 +89,7 @@ def equation():
     b_1 = input("Insert your first 'y' coordinate here: ")
     c_1 = input("Insert your second 'x' coordinate here: ")
     d_1 = input("Insert your second 'y' coordinate here: ")
-    a = convert(a_1)
-    b = convert(b_1)
-    c = convert(c_1)
-    d = convert(d_1)
+    
     def graphing():
         from pyautogui import press, typewrite, hotkey
         import webbrowser
