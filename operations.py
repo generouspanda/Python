@@ -153,7 +153,7 @@ def equation():
                 else:
                     print("Please answer with Y or N.")
                     continue
-        except ValueError:
+        except ValueError as e:
             print("Please only enter numbers.")
             equation()
 def whichone():
