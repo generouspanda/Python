@@ -142,15 +142,7 @@ def equation():
                     print("Your slope is:", slope_strip)
                     print(f"Your equation in point-slope form is: y-{str(b).rstrip('.0')}={slope_strip}(x-{str(a).rstrip('.0')})")
                     printed=str(f"y={slope_strip}x+{yint_strip}")
-                    print(f"Your equation in slope-intercept form is: {printed}")
-                    def standard(a, b, c, d):
-                        slope_strip = str((float(d)-float(b))/(float(c)-float(a))).rstrip('.0')
-                        yint_strip=str(b-int(slope_strip)*a).rstrip('.0')
-                        A = slope_strip
-                        B = -1
-                        C = yint_strip
-                        return A, B, C
-                    A, B, C = standard(a, b, c, d)        
+                    print(f"Your equation in slope-intercept form is: {printed}")      
                     print(f"Your equation in standard form is: {A}x + {B}y = {C}")
                     graphing()
 
