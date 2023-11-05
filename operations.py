@@ -143,7 +143,7 @@ def equation():
                     print(f"Your equation in point-slope form is: y-{str(b).rstrip('.0')}={slope_strip}(x-{str(a).rstrip('.0')})")
                     printed=str(f"y={slope_strip}x+{yint_strip}")
                     print(f"Your equation in slope-intercept form is: {printed}")      
-                    print(f"Your equation in standard form is: {-}")
+                    print(f"Your equation in standard form is: {-slope_strip}x+y={yint_strip}")
                     graphing()
 
                 if(yn=="n") or (yn=="N") or (yn=="no") or (yn=="No"):
