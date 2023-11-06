@@ -96,7 +96,6 @@ def equation():
         import time
         graphed = input("Would you like your equation graphed? (Y/N): ")
         while True:
-            
             if(graphed=="y") or (graphed=="Y") or (graphed=="yes") or (graphed=="Yes"):    
                             webbrowser.open_new("https://www.desmos.com/calculator")
                             time.sleep(1)
