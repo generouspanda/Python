@@ -103,7 +103,7 @@ def equation():
                             typewrite(printed)
                             another()
                         except:
-                            print("It looks like you do not have the correct Python packages installed to graph to equation")
+                            print("It looks like you do not have the correct Python packages installed to graph to equation. Please install the packages and try again.")
             if(graphed=="n") or (graphed=="N") or (graphed=="no") or (graphed=="No"):
                             another()
             else:
