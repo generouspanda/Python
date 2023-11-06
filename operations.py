@@ -95,6 +95,7 @@ def equation():
         while True:
             if(graphed=="y") or (graphed=="Y") or (graphed=="yes") or (graphed=="Yes"):
                         try:
+                            
                             webbrowser.open_new("https://www.desmos.com/calculator")
                             time.sleep(1)
                             typewrite(printed)
