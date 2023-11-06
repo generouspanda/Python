@@ -138,7 +138,7 @@ def equation():
             else:
                 if(yn=="y") or (yn=="Y") or (yn=="yes") or (yn=="Yes"):
                 slope_strip = float(float(d) - float(b)) / (float(c) - float(a))
-                yint_strip = str(float(b) - slope_strip * float(a)).rstrip('.0')
+                    yint_strip = str(float(b) - slope_strip * float(a)).rstrip('.0')
 
                     print("Your slope is:", slope_strip)
                     print(f"Your equation in point-slope form is: y-{str(b).rstrip('.0')}={slope_strip}(x-{str(a).rstrip('.0')})")
