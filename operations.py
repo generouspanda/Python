@@ -137,7 +137,7 @@ def equation():
 
             else:
                 if(yn=="y") or (yn=="Y") or (yn=="yes") or (yn=="Yes"):
-                slope_strip = float(float(d) - float(b)) / (float(c) - float(a))
+                    lope_strip = float(float(d) - float(b)) / (float(c) - float(a))
                     yint_strip = str(float(b) - slope_strip * float(a)).rstrip('.0')
 
                     print("Your slope is:", slope_strip)
