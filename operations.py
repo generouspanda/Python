@@ -103,7 +103,7 @@ def equation():
                             typewrite(printed)
                             another()
                         except:
-                            
+                            print
             if(graphed=="n") or (graphed=="N") or (graphed=="no") or (graphed=="No"):
                             another()
             else:
