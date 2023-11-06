@@ -97,7 +97,7 @@ def equation():
                         try:
                             from pyautogui import press, typewrite, hotkey
                             import webbrowser
-        import time
+                            import time
                             webbrowser.open_new("https://www.desmos.com/calculator")
                             time.sleep(1)
                             typewrite(printed)
