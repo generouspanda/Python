@@ -144,7 +144,6 @@ def equation():
                     printed=str(f"y={slope_strip}x+{yint_strip}")
                     print(f"Your equation in standard form is: {slope_strip}x+y={yint_strip}")
                     print(f"Your equation in slope-intercept form is: {printed}")      
- 
                     graphing()
 
                 if(yn=="n") or (yn=="N") or (yn=="no") or (yn=="No"):
