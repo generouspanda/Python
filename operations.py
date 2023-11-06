@@ -91,9 +91,7 @@ def equation():
     d_1 = input("Insert your second 'y' coordinate here: ")
     
     def graphing():
-        from pyautogui import press, typewrite, hotkey
-        import webbrowser
-        import time
+        
         graphed = input("Would you like your equation graphed? (Y/N): ")
         while True:
             if(graphed=="y") or (graphed=="Y") or (graphed=="yes") or (graphed=="Yes"):
