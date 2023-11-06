@@ -102,7 +102,7 @@ def equation():
                             time.sleep(1)
                             typewrite(printed)
                             another()
-                        except ValueError
+                        except ValueError:
             if(graphed=="n") or (graphed=="N") or (graphed=="no") or (graphed=="No"):
                             another()
             else:
