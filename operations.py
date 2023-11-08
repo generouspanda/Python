@@ -176,7 +176,7 @@ def whichone():
             else:
                 print("Please pick either 1 or 2.")
         except ValueError:
-            print("Please only enter numbers.")
+            print("Please .")
 
     if(number==1):
         operation()
