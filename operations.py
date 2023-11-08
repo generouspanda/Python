@@ -174,7 +174,7 @@ def whichone():
             if 1 <= number <= len(options):
                 break
             else:
-                print("Please pick one of the choices.")
+                print("Please pick either 1 or 2")
         except ValueError:
             print("Please only enter numbers.")
 
