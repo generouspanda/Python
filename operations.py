@@ -11,7 +11,7 @@ def another():
                 whichone()
             if(yn=="n") or (yn=="N") or (yn=="no") or (yn=="No"):
                 import sys
-                exit()
+                sys.exit()
             else:
                 print("Please answer with Y or N.")
                 continue
