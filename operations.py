@@ -10,7 +10,7 @@ def another():
             if(yn=="y") or (yn=="Y") or (yn=="yes") or (yn=="Yes"):
                 whichone()
             if(yn=="n") or (yn=="N") or (yn=="no") or (yn=="No"):
-                import
+                import sys
                 exit()
             else:
                 print("Please answer with Y or N.")
