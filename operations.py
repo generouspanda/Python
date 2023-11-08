@@ -103,7 +103,7 @@ def equation():
                             time.sleep(1)
                             typewrite(printed)
                             another()
-                        except :
+                        except ModuleNotFoundError:
                             print("It looks like you do not have the correct Python packages installed to graph to equation. Please install the packages and try again.")
                             another()
             if(graphed=="n") or (graphed=="N") or (graphed=="no") or (graphed=="No"):
