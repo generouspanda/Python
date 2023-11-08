@@ -159,7 +159,7 @@ def equation():
                     print("Please answer with Y or N.")
                     continue
         except ValueError:
-            print("Something went wrong, please enter your coordinates again.")
+            print("Please enter .")
             equation()
 def whichone():
     options = ["Operations", "Solve for the equation of a line"]
